@@ -1,10 +1,58 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
-	background:#171819;
+	background:#25262A;
 	
 }
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+.ft {
+    background-color: #25262A;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ft .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ft p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.ft .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ft .social-links li {
+    display: inline;
+}
+
+.ft .social-links a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.ft .social-links a:hover {
+    color: #1e90ff;
+}
+__________________________________________________________
 nav{
 	background-color: aliceblue;
 }
@@ -17,13 +65,12 @@ li, a, button{
 	
 }
 header{
-	margin-top: 20px;
 	display: flex;
 	justify-content:flex-end;
 	align-items: center;
 	padding: 30px 10%;
 	background-color: aliceblue;
-	border-radius: 20px 20px 0 0;
+	
 
 }
 .logo{
@@ -51,12 +98,12 @@ header{
 
 }
 .nav_link li a:hover{
-	color:#0088A9 ;
+	color:orange ;
 }
 button{
 	margin-left: 20px;
 	padding: 9px 25px;
-	background-color:#171819;
+	background-color:#25262A;
 	border: none;
 	border-radius:7px ;
 	cursor:pointer;
@@ -73,21 +120,33 @@ button:hover{
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
-	background-color: #171819;
 }
 .content h1{
 	font-size: 70px;
 	margin-top: 80px;
 }
 .content p{
-	margin: 20px auto;
+	margin: 20px;
 	font-weight: 100;
 	line-height: 25px;
 }
-footer p{
-	height: 80px;
+.ft{
+	height: 120px;
 	width: 100%;
 	color: #b6b9bb;
-	background-color: #313334;
-	margin-top: 500px;
+	background-color: #393c3d;
+	margin-top: 520px;
+	
+}
+.ft p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.ft p a{
+	color: #b6b9bb;
+	align-items: center;
+	flex-direction: column;
+
 }
